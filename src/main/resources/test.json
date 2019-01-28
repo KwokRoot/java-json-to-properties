@@ -1,0 +1,104 @@
+{
+	"id": 0,
+	"name": "kwok",
+	"pocket" : 33.33,
+	"wealth" : 1.23E9,
+	"isAdult": true,
+	"house": null,
+	"pages": [1, 2, 3],
+	"pages_en": ["one", "two", "three"],
+	"mate": {
+		"id": 1,
+		"name": "admin1",
+		"isAdult": false,
+		"house": null,
+		"pages": [1, 2, 3],
+		"pages_en": ["one", "two", "three"],
+		"mate": {
+			"id": 11,
+			"name": "admin11",
+			"isAdult": true,
+			"house": null,
+			"pages": [1, 2, 3],
+			"pages_en": ["one", "two", "three"],
+			"mate": {
+				"id": 111,
+				"name": "admin111",
+				"isAdult": true,
+				"pages": [1, 2, 3],
+				"pages_en": ["one", "two", "three"],
+				"mate": {},
+				"friends": [{}]
+			},
+			"friends": [{
+				"id": 112,
+				"name": "admin112",
+				"isAdult": true,
+				"pages": [1, 2, 3],
+				"pages_en": ["one", "two", "three"],
+				"mate": {},
+				"friends": [{
+					"id": 1121,
+					"name": "admin1121",
+					"isAdult": true,
+					"pages": [1, 2, 3],
+					"pages_en": ["one", "two", "three"],
+					"mate": {},
+					"friends": [{}]
+				}]
+			}, {
+				"id": 113,
+				"name": "admin113",
+				"isAdult": true,
+				"house": null,
+				"pages": [1, 2, 3],
+				"pages_en": ["one", "two", "three"],
+				"mate": {},
+				"friends": [{}]
+			}]
+		},
+		"friends": [{
+			"id": 2,
+			"name": "admin2",
+			"isAdult": true,
+			"pages": [1, 2, 3],
+			"pages_en": ["one", "two", "three"],
+			"mate": {},
+			"friends": [{}]
+		}, {
+			"id": 3,
+			"name": "admin3",
+			"isAdult": true,
+			"pages": [1, 2, 3],
+			"house": "yes",
+			"pages_en": ["one", "two", "three"],
+			"mate": {},
+			"friends": [{}]
+		}]
+	},
+	"friends": [{
+		"id": 2,
+		"name": "admin2",
+		"isAdult": true,
+		"pages": [1, 2, 3],
+		"pages_en": ["one", "two", "three"],
+		"mate": {
+			"id": 22,
+			"name": "admin22",
+			"isAdult": true,
+			"pages": [1, 2, 3],
+			"pages_en": ["one", "two", "three"],
+			"mate": {},
+			"friends": [{}]
+		},
+		"friends": [{}]
+	}, {
+		"id": 3,
+		"name": "admin3",
+		"isAdult": true,
+		"pages": [1, 2, 3],
+		"pages_en": ["one", "two", "three"],
+		"mate": {},
+		"friends": [{}]
+	}]
+}

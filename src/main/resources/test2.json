@@ -1,0 +1,48 @@
+{
+	"pageNum": 1,
+	"pageSize": 3,
+	"size": 3,
+	"startRow": 1,
+	"endRow": 3,
+	"total": 29,
+	"pages": 10,
+	"list": [{
+			"id": 1,
+			"name": "admin",
+			"email": "admin",
+			"phone": "123456789",
+			"password": "21232f297a57a5a743894a0e4a801fc3",
+			"cname": "admin",
+			"isdelect": 0,
+			"lastlogin": "Jan 21, 2019 6:21:17 PM"
+		}, {
+			"id": 2,
+			"name": "user2",
+			"email": "user2@qq.com",
+			"phone": "987654321",
+			"password": "21232f297a57a5a743894a0e4a801fc3",
+			"cname": "用户2",
+			"isdelect": 0,
+			"lastlogin": "Jan 21, 2019 6:21:17 PM"
+		}, {
+			"id": 3,
+			"name": "user3",
+			"email": "user3@qq.com",
+			"phone": "123110321",
+			"password": "21232f297a57a5a743894a0e4a801fc3",
+			"cname": "用户3",
+			"isdelect": 0,
+			"lastlogin": "Jan 21, 2019 6:21:17 PM"
+		}
+	],
+	"prePage": 0,
+	"nextPage": 2,
+	"isFirstPage": true,
+	"isLastPage": false,
+	"hasPreviousPage": false,
+	"hasNextPage": true,
+	"navigatePages": 8,
+	"navigatepageNums": [1, 2, 3, 4, 5, 6, 7, 8],
+	"navigateFirstPage": 1,
+	"navigateLastPage": 8
+}
