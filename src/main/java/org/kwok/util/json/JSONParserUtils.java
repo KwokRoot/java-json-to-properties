@@ -82,10 +82,10 @@ public static Map<String,Object> jsonToMap(String jsonStr, String keyPrefix){
 				/*
 				 * 处理数组中元素为 null 的情况，这里转为空字符串。如：{"pages":[1,2,null]}。
 				 */
-				if (jsonArray.get(i) != null) {
-					keyValueMap.putAll(jsonToMap(jsonArray.get(i).toString(), tempKeyPrefix));
-				} else {
+				if (jsonArray.get(i) == null) {
 					keyValueMap.putAll(jsonToMap("", tempKeyPrefix));
+				} else {
+					keyValueMap.putAll(jsonToMap(jsonArray.get(i).toString(), tempKeyPrefix));
 				}
 				
 			}

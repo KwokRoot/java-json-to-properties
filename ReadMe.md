@@ -223,7 +223,7 @@ total --> 29
 
 ### *License*
 
-java-json-to-properties is released under the [Apache 2.0 license](license).
+java-json-to-properties is released under the [Apache 2.0 license](LICENSE).
 
 ```
 Copyright 2018-2019 DreamLead Group Kwok(AndyKuo).
